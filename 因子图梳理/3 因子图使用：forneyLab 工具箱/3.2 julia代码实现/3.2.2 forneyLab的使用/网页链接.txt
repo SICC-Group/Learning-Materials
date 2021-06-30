@@ -1,2 +1,0 @@
-forneylab的简单demo：https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/notebooks/Factor-Graphs.ipynb
-forneylab在github上的开源地址：https://github.com/biaslab/ForneyLab.jl
