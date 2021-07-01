@@ -3,10 +3,11 @@
 ```
 
 __TODO List__
-- [ ] 因子图链接
+- [ ] 因子图部分超链接
 - [ ] 强化学习部分目录结构调整
+- [ ] 机器学习其他待苏然添加
 
-- [机器学习[^zct]](#机器学习zct)
+- [机器学习](#机器学习)
   - [模式识别](#模式识别)
     - [图&emsp;书](#图书)
   - [深度学习](#深度学习)
@@ -19,13 +20,13 @@ __TODO List__
     - [论&emsp;文](#论文)
       - [综&emsp;述](#综述)
       - [算&emsp;法](#算法)
-    - [强化学习基本概念[^yinnan]](#强化学习基本概念yinnan)
+    - [强化学习基本概念](#强化学习基本概念)
     - [基于值函数的强化学习方法](#基于值函数的强化学习方法)
     - [基于策略的强化学习方法](#基于策略的强化学习方法)
     - [基于值函数和策略的结合](#基于值函数和策略的结合)
     - [深度强化学习](#深度强化学习)
       - [RL热点问题](#rl热点问题)
-- [因子图 （Factor Graph）[^syc]](#因子图-factor-graphsyc)
+- [因子图 （Factor Graph）](#因子图-factor-graph)
   - [1 因子图与和积算法](#1-因子图与和积算法)
     - [其他材料](#其他材料)
   - [2 信念传播](#2-信念传播)
@@ -58,8 +59,7 @@ __TODO List__
       - [其他材料](#其他材料-4)
 
 - - -
-# 机器学习[^zct]
-- - -
+# 机器学习
 ## 模式识别
 ### 图&emsp;书
 [__《Bishop Pattern Recognition and Machine Learning》__](./机器学习/深度学习/图书/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) by _Christopher M. Bishop_  
@@ -115,7 +115,7 @@ POMDPs介绍--[Pages](http://cs.brown.edu/research/ai/pomdp/)
 - **IQL**-----[Independent Q-Learning](https://arxiv.org/abs/1511.08779)
 - **QTRAN**---[Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1905.05408)
 
-### 强化学习基本概念[^yinnan]
+### 强化学习基本概念
 
 1. 智能体、环境、策略、奖励、状态转移概念
 
@@ -260,7 +260,7 @@ POMDPs介绍--[Pages](http://cs.brown.edu/research/ai/pomdp/)
 
 
 
-# 因子图 （Factor Graph）[^syc]
+# 因子图 （Factor Graph）
 ## 1 因子图与和积算法
 
 |  相关网页    |
@@ -505,6 +505,6 @@ POMDPs介绍--[Pages](http://cs.brown.edu/research/ai/pomdp/)
   </tr>
 <table>
 
-[^zct]: 张昶天的整理
+<!-- [^zct]: 张昶天的整理
 [^yinnan]: 殷楠的整理 
-[^syc]: 石雨宸的因子图
+sycc: 石雨宸的因子图 -->
