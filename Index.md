@@ -6,7 +6,56 @@ __TODO List__
 - [ ] 因子图链接
 - [ ] 强化学习部分目录结构调整
 
-[TOC]
+- [机器学习[^zct]](#机器学习zct)
+  - [模式识别](#模式识别)
+    - [图&emsp;书](#图书)
+  - [深度学习](#深度学习)
+    - [图&emsp;书](#图书-1)
+  - [强化学习](#强化学习)
+    - [图&emsp;书](#图书-2)
+    - [课&emsp;程](#课程)
+    - [实&emsp;战](#实战)
+    - [扩展知识](#扩展知识)
+    - [论&emsp;文](#论文)
+      - [综&emsp;述](#综述)
+      - [算&emsp;法](#算法)
+    - [强化学习基本概念[^yinnan]](#强化学习基本概念yinnan)
+    - [基于值函数的强化学习方法](#基于值函数的强化学习方法)
+    - [基于策略的强化学习方法](#基于策略的强化学习方法)
+    - [基于值函数和策略的结合](#基于值函数和策略的结合)
+    - [深度强化学习](#深度强化学习)
+      - [RL热点问题](#rl热点问题)
+- [因子图 （Factor Graph）[^syc]](#因子图-factor-graphsyc)
+  - [1 因子图与和积算法](#1-因子图与和积算法)
+    - [其他材料](#其他材料)
+  - [2 信念传播](#2-信念传播)
+    - [2.1 信念传播算法](#21-信念传播算法)
+    - [相关论文](#相关论文)
+    - [2.2 循环信念传播](#22-循环信念传播)
+    - [相关论文](#相关论文-1)
+    - [其他材料](#其他材料-1)
+  - [3 因子图代码实现](#3-因子图代码实现)
+    - [3.1 matlab代码实现](#31-matlab代码实现)
+      - [相关网页](#相关网页)
+    - [3.2 Julia代码实现](#32-julia代码实现)
+      - [3.2.1 Julia安装](#321-julia安装)
+      - [相关网页](#相关网页-1)
+      - [相关论文](#相关论文-2)
+      - [其他材料](#其他材料-2)
+      - [3.2.2 forneyLab工具箱的使用](#322-forneylab工具箱的使用)
+      - [相关网页](#相关网页-2)
+      - [相关论文](#相关论文-3)
+  - [4 因子图扩展](#4-因子图扩展)
+    - [4.1 因子图约束](#41-因子图约束)
+      - [相关论文](#相关论文-4)
+    - [4.2 BP算法的粒子化](#42-bp算法的粒子化)
+      - [相关论文](#相关论文-5)
+      - [其他材料](#其他材料-3)
+    - [4.3 因子图与粒子滤波](#43-因子图与粒子滤波)
+      - [相关论文](#相关论文-6)
+    - [4.4 因子图与协同网络](#44-因子图与协同网络)
+      - [相关论文](#相关论文-7)
+      - [其他材料](#其他材料-4)
 
 - - -
 # 机器学习[^zct]
@@ -219,51 +268,46 @@ POMDPs介绍--[Pages](http://cs.brown.edu/research/ai/pomdp/)
 | [概率图的推断——变量消除、信念传播、因子图、道德图、联结树](https://blog.csdn.net/yao09605/article/details/104622655/)  | 
 | 以一个例子讲述因子图为何以及如何进行计算。  | 
 | [因子图与和积算法简介(CSDN)](https://blog.csdn.net/sinat_38151275/article/details/83621805)  | 
-| 出自论文<strong>factor graph and sum-product algorithm</strong>。  | 
+| 出自论文[__factor graph and sum-product algorithm__](./因子图梳理/1%20因子图定义与和积算法/factor%20graph%20and%20sum-product%20algorithm.pdf)  | 
 | [因子图与和积算法简介(知乎)](https://zhuanlan.zhihu.com/p/84210564)  | 
-| 出自论文<strong>factor graph and sum-product algorithm</strong>。与上一个链接内容相比，对因子图定义的形式化描述更多。 | 
+| 出自论文[__factor graph and sum-product algorithm__](./因子图梳理/1%20因子图定义与和积算法/factor%20graph%20and%20sum-product%20algorithm.pdf)与上一个链接内容相比，对因子图定义的形式化描述更多。 | 
 
 
 |  相关论文    |
 |  :-----  | 
-| [<strong>An introduction to factor graph</strong>](./1%20%E5%9B%A0%E5%AD%90%E5%9B%BE%E5%AE%9A%E4%B9%89%E4%B8%8E%E5%92%8C%E7%A7%AF%E7%AE%97%E6%B3%95/An%20introduction%20to%20factor%20graph.pdf)  | 
+| [<strong>An introduction to factor graph</strong>](./因子图梳理/1%20因子图定义与和积算法/An%20introduction%20to%20factor%20graphs.pdf)  | 
 | 本文讲述因子图的发展过程，并给出两种形式的因子图：标准形式、Forney形式。 介绍了LDPC码、卡尔曼滤波等应用与因子图上的例子。  | 
 | [因子图与和积算法简介(CSDN)](https://blog.csdn.net/sinat_38151275/article/details/83621805)  | 
-| 出自论文<strong>factor graph and sum-product algorithm</strong>。  | 
+| 出自论文[__factor graph and sum-product algorithm__](./因子图梳理/1%20因子图定义与和积算法/factor%20graph%20and%20sum-product%20algorithm.pdf)。  | 
 | [因子图与和积算法简介(知乎)](https://zhuanlan.zhihu.com/p/84210564)  | 
-| 出自论文<strong>factor graph and sum-product algorithm</strong>。与上一个链接内容相比，对因子图定义的形式化描述更多。 | 
+| 出自论文[__factor graph and sum-product algorithm__](./因子图梳理/1%20因子图定义与和积算法/factor%20graph%20and%20sum-product%20algorithm.pdf)。与上一个链接内容相比，对因子图定义的形式化描述更多。 | 
 
 
 
 
 ### 其他材料
-<table>
-  <tr>
-    <td>[word文档]SRTP因子图项目报告</td>
-  </tr>
-  <tr>
-    <td>课题名为：“实现信息融合的因子图可视化设计”。描述了因子图定义以及各种算法，并进行仿真实验设计。</td>
-  </tr>
-<table>
+| [SRTP因子图项目报告](./因子图梳理/1%20因子图定义与和积算法/srtp报告.docx) |
+| :-|
+| 课题名为：“实现信息融合的因子图可视化设计”。描述了因子图定义以及各种算法，并进行仿真实验设计|
 
 ## 2 信念传播
 ### 2.1 信念传播算法
 ### 相关论文
 <table>
   <tr>
-      <td>[论文]<strong>Max-product for maximum weight matching   Convergence correctness and LP duality</strong></td>
+      <td><a href=""><strong>Max-product for maximum weight matching   Convergence correctness and LP duality</strong></a></td>
   </tr>
   <tr>
     <td>本文介绍最大积算法并证明其在循环图中的正确性和收敛性</td>
   </tr>
   <tr>
-    <td>[论文]<strong>Message-passing algorithms for inference</strong></td>
+    <td><a href=""><strong>Message-passing algorithms for inference</strong></a></td>
   </tr>
   <tr>
     <td>本文描述了一系列信念传播算法，包括最小和算法、基于自由能的BP算法、“tree-reweighted"BP算法等。</td>
   </tr>
   <tr>
-    <td>[论文]<strong>Understanding Belief Propogation</strong></td>
+    <td><a href=""><strong>Understanding Belief Propogation</strong></a></td>
   </tr>
 <table>
 
@@ -272,7 +316,7 @@ POMDPs介绍--[Pages](http://cs.brown.edu/research/ai/pomdp/)
 ### 相关论文
 <table>
   <tr>
-    <td>[论文]<strong>Loopy belief propagation based data association for extended target tracking</strong></td>
+    <td><a href=""><strong>Loopy belief propagation based data association for extended target tracking</strong></a></td>
   </tr>
   <tr>
     <td>本文提出一种多扩展目标跟踪数据关联的图形模型公式，并且可以通过循环信念传播来求解</td>
