@@ -90,7 +90,7 @@ __TODO List__
 
 
 ### 实&emsp;战
-基于SMAC的PYMARL平台  __GitHub__ 地址<https://github.com/oxwhirl/pymarl>
+基于SMAC的PYMARL平台  __GitHub__ 地址<https://github.com/oxwhirl/pymarl>  
 百度PaddlePaddle工程师实训教程--视频<https://www.bilibili.com/video/BV1yv411i7xd>  
 > [Baidu AI-Studio课程](https://aistudio.baidu.com/aistudio/course/introduce/1335)  
 > 项目代码PRAL [GitHub](https://github.com/PaddlePaddle/PARL)
